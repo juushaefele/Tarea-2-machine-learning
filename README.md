@@ -8,11 +8,15 @@ En esta tarea se aplicaron diversas técnicas de machine learning con enfoque en
 
 -Exploración de datos: Se detectó un **fuerte desbalance** en las etiquetas, predominando la clase `0`. Dado el desbalance, se concluyó que métricas como **recall**, **precision**, y especialmente la **F1-score** son más apropiadas que la accuracy.
 
--Visualización de Features\\
--Implementación de árboles de decisión: Se reportaron el **promedio y desviación estándar de los scores**.\\
--Implementación de SVMs\\
--Optimización de hiperparámetros: Se usó solo el 5% de los datos (aleatorizados) para acelerar la búsqueda.\\
--Manejo de clases imbalanceadas: Se implementó SMOTE (Synthetic Minority Over-sampling Technique) para generar muestras sintéticas de la clase minoritaria\\
+-Visualización de Features
+
+-Implementación de árboles de decisión: Se reportaron el **promedio y desviación estándar de los scores**.
+-Implementación de SVMs
+
+-Optimización de hiperparámetros: Se usó solo el 5% de los datos (aleatorizados) para acelerar la búsqueda.
+
+-Manejo de clases imbalanceadas: Se implementó SMOTE (Synthetic Minority Over-sampling Technique) para generar muestras sintéticas de la clase minoritaria
+
 -Conclusiones: SVM con parámetros optimizados y SMOTE mostró el mejor rendimiento en métricas como F1-score, en comparación a los otros modelos.
 
 ### Usos
